@@ -18,10 +18,8 @@ The script will run for all open documents in Photoshop.
 In order to set up the script, the following steps must be taken:
 
 Install the "script_actions" action in Photoshop included here.
-
-Change the directory of the watermark folder - You can change the directory of the watermark folder by changing the path on the following line of code:
-var saveFolder = new Folder(Folder.desktop + "/" + dateString);
-You can change the directory to any folder on your computer by replacing "Folder.desktop" with the path of the desired folder.
+Inside the "script_actions" folder on your panel, click on the arrow down next to the "watermark" action to reveal the steps on the action and then do the same for the "place" step. 
+Double click on it to select where your watermark image is and hit "ok".
 
 To run the script, open Photoshop and open the documents you want to watermark and save. Then, open the script in Photoshop by going to File -> Scripts -> Browse. 
 Select the script and click on Open, the script will start running.
